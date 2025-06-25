@@ -5,5 +5,5 @@ class Solution:
             if target-nums[i] in d:
                 return [d[target-nums[i]],i]
             d[nums[i]] = i
-            
+
         
